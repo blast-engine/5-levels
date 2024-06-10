@@ -1,0 +1,54 @@
+.big-dumb {
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    display: block;
+    animation-name: whacky-animation;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+#button1 {
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    display: block;
+    animation-name: whacky-animation;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    color: aqua;
+}
+/* dots are for class refs */
+.button3 {
+
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    display: block;
+    animation-name: whacky-animation;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    color: rgb(99, 209, 25);
+}
+
+@keyframes whacky-animation {
+    0% {
+        background-color: rgba(0, 0, 0, 0.261);
+    }
+
+    50% {
+        background-color: rgba(255, 255, 0, 0.261);
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0.261);
+    }
+}
+
+#myImg{ display: none;}

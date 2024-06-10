@@ -1,46 +1,21 @@
+<head>
+  <link rel="stylesheet" href="app.css">
+  <script src="bens.js"></script>
+</head>
 <div>
 
-  <button 
-    id='button1'
-    style='background-color: lightblue'
-  >
+  <button id='button1' onclick="changeColor()">
     button1
   </button>
 
-  <button 
-    class='big-dumb'
-  >
+  <button class='big-dumb'>
     button2
   </button>
 
+  <button class="button3" onclick="doSomething()">
+    button3
+  </button>
+
+  <img id="myImg"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" id="google-logo">
+
 </div>
-
-<style>
-
-  .big-dumb {
-    width: 200px;
-    height: 100px;
-    margin: 50px;
-    border-radius: 50px;
-    border-radius: 50px;
-    display: block;
-    animation-name: whacky-animation;
-    animation-duration: 0.3s;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes whacky-animation {
-    0% {background-color: rgba(255, 0, 0, 0.261);}
-    50% {background-color: rgba(255, 255, 0, 0.261);}
-    100% {background-color: rgba(255, 0, 0, 0.261);}
-  }
-
-</style>
-
-
-<script>
-
-  // javascript
-  console.log('yo')
-
-</script>
